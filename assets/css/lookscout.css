@@ -1,0 +1,13 @@
+/* Mobile ALANI */
+* {
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+}
+
+@media (min-width: 704px) {
+	/* TABLET ALANI */
+}
+
+@media (min-width: 1215px) {
+	/* Desktop ALANI */
+}
