@@ -1,0 +1,14 @@
+*{
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+}
+
+
+
+@media (min-width:704px) and (max-width:1214) {
+    /* TABLET ALANI */
+}
+
+@media (min-width:375px) and (max-width:704PX) {
+    /* Mobile ALANI */
+}
