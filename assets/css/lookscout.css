@@ -17,11 +17,10 @@
 	padding-left: 16px;
 	padding-right: 16px;
 }
-/* Utilities start */
+
 
 .leftToRightHeader{
 	margin-top: 32px;
-	margin-bottom: 32px;
 }
 .headline-S-Mobile{
 	font-size: 24px;
@@ -54,8 +53,16 @@
 	letter-spacing: -0.10000000149011612px;
 	text-align: left;
 }
+.bg-white{
+	background-color: #FAFBFC;
+}
+.bg-blue{
+	background-color: #2B63D9;
+}
+/* Utilities end */
 .leftToRightContentImg{
 	padding-bottom: 32px;
+	padding-top: 32px;
 }
 
 .leftToRightContentBase span{
@@ -83,7 +90,13 @@
     border-radius: 6px;
 	color:#FFFFFF ;
 }
-
+.leftToRightBlue span,
+.leftToRightBlue h2 {
+	color: #FFFFFF;
+}
+.leftToRightBlue p{
+	color: #B1CCFB;
+}
 
 
 @media (min-width: 704px) {
