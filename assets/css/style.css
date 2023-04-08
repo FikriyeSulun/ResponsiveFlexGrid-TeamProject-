@@ -1,0 +1,36 @@
+.container {
+    margin: 0 16.02px;
+}
+
+/* gap 8'in katları, gap değerlerini rem ile ayarlama yapıyorum*/
+html {
+    font-size: 8px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* Nav Start */
+
+nav {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Hero-Base {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.Paragraph-container,
+.Input-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
