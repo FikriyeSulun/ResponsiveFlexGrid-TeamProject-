@@ -1,13 +1,15 @@
-.container {
-    margin: 0 16.02px;
-}
-
 /* gap 8'in katları, gap değerlerini rem ile ayarlama yapıyorum*/
 html {
     font-size: 8px;
     font-family: 'Inter', sans-serif;
 }
 
+.container {
+    margin: 0 16.02px;
+}
+
+
+/* MOBILE AREA */
 
 /* Nav Start */
 
@@ -54,6 +56,7 @@ nav {
     color: #5F6D7E;
 }
 
+
 /* Hero-Base Start */
 
 .Hero-Base {
@@ -75,14 +78,14 @@ nav {
 
 /* Hero-Base End */
 
+
 .Header-img {
     margin-top: 3rem;
     width: 100%;
-
 }
 
 @media (min-width: 704px) {
-    /* TABLET ALANI */
+    /* TABLET AREA  */
 
     /* Header Font */
 
@@ -111,6 +114,7 @@ nav {
 
     /* Hero-Base End */
 
+
     .Header-img {
         margin-top: 4rem;
     }
@@ -118,11 +122,14 @@ nav {
 }
 
 @media (min-width: 1215px) {
-    /* Desktop ALANI */
+    /* DESKTOP AREA */
 
     .container {
         margin: 0 112.03px;
     }
+
+
+    /* Nav Start */
 
     .sidebar {
         display: none;
@@ -166,15 +173,14 @@ nav {
         color: #437EF7;
     }
 
+    /* Nav End */
 
-
+    
     /* Hero-Base Start */
 
     .Hero-Base {
         margin-top: 6rem;
     }
-
-    /* Hero-Base Start */
 
     .Paragraph-container {
         width: 900px;
