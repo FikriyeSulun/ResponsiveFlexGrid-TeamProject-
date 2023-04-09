@@ -1,0 +1,192 @@
+/* gap 8'in katları, gap değerlerini rem ile ayarlama yapıyorum*/
+html {
+    font-size: 8px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* MOBILE AREA */
+
+.container {
+    margin: 0 16.02px;
+}
+
+/* Nav Start */
+
+header {
+    background: #F8F9FB;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+nav {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #EAEBF0;
+}
+
+.Header-links {
+    display: none;
+}
+
+.singUp-logIn {
+    display: none;
+}
+
+/* Nav End */
+
+
+/* Header Font */
+
+.Headline_xL-Mobile-Semibold {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.Headline_gray {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    color: #5F6D7E;
+}
+
+
+/* Hero-Base Start */
+
+.Hero-Base {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.Paragraph-container,
+.Input-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Hero-Base End */
+
+
+.Header-img {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+@media (min-width: 704px) {
+    /* TABLET AREA  */
+
+    /* Header Font */
+
+    .Headline_xL-Mobile-Semibold {
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: -0.01em;
+    }
+
+
+    /* Hero-Base Start */
+
+    .Hero-Base {
+        margin-top: 4rem;
+        gap: 4rem;
+    }
+
+    .Paragraph-container {
+        gap: 3rem;
+    }
+
+    .Input-form {
+        flex-direction: row;
+    }
+
+    /* Hero-Base End */
+
+
+    .Header-img {
+        margin-top: 4rem;
+    }
+
+}
+
+@media (min-width: 1215px) {
+    /* DESKTOP AREA */
+
+    .container {
+        margin: 0 112.03px;
+    }
+
+
+    /* Nav Start */
+
+    .sidebar {
+        display: none;
+    }
+
+    .Header-links {
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+        justify-content: space-between;
+        text-decoration: none;
+        margin: 0 420px 0 64px;
+
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+
+    .Header-links a {
+
+        color: #272D37;
+    }
+
+    .downlink {
+        display: inline-flex;
+        gap: 1.5rem;
+    }
+
+    .singUp-logIn {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+
+    .singUp {
+        color: #437EF7;
+    }
+
+    /* Nav End */
+
+
+    /* Hero-Base Start */
+
+    .Hero-Base {
+        margin-top: 6rem;
+    }
+
+    .Paragraph-container {
+        width: 900px;
+    }
+
+    /* Hero-Base End */
+
+
+}
