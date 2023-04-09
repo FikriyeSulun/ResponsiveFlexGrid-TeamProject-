@@ -4,12 +4,12 @@ html {
     font-family: 'Inter', sans-serif;
 }
 
+
+/* MOBILE AREA */
+
 .container {
     margin: 0 16.02px;
 }
-
-
-/* MOBILE AREA */
 
 /* Nav Start */
 
@@ -175,7 +175,7 @@ nav {
 
     /* Nav End */
 
-    
+
     /* Hero-Base Start */
 
     .Hero-Base {
