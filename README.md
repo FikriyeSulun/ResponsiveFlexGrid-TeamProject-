@@ -7,3 +7,5 @@ Emre Bayburt
 Fikriye Sülün
 
 Ömer Faruk Köse
+
+Ali Duru
