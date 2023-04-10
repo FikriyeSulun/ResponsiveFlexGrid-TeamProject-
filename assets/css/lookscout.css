@@ -1,111 +1,365 @@
-* {
+/* gap 8'in katları, gap değerlerini rem ile ayarlama yapıyorum*/
+html {
+	font-size: 8px;
 	font-family: 'Inter', sans-serif;
+}
+
+/* MOBILE AREA */
+.container {
+	margin: 0 16.02px;
+}
+
+/* Header Start */
+
+/* Nav Start */
+
+header {
+	background: #f8f9fb;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+nav {
+	height: 64px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #eaebf0;
+}
+
+.Header-links {
+	display: none;
+}
+
+.singUp-logIn {
+	display: none;
+}
+
+/* Nav End */
+
+/* Header Font */
+
+.Headline_xL-Mobile-Semibold {
+	font-size: 36px;
 	font-weight: 600;
-}
-
-/* Mobile ALANI */
-
-.container{
-	max-width: 345px;
-	margin: 0 auto;
-}
-/* Utilities */
-.text-center{
+	line-height: 44px;
+	letter-spacing: -0.02em;
 	text-align: center;
 }
-.p-lr{
-	padding-left: 16px;
-	padding-right: 16px;
+
+.Headline_gray {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: -0.10000000149011612px;
+	text-align: center;
+	color: #5f6d7e;
 }
 
+/* Hero-Base Start */
 
-.leftToRightHeader{
+.Hero-Base {
+	margin-top: 3rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 3rem;
+}
+
+.Paragraph-container,
+.Input-form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2rem;
+}
+
+/* Hero-Base End */
+
+.Header-img {
+	margin-top: 3rem;
+	width: 100%;
+}
+
+/* Header End */
+
+/* Utilities */
+
+.text-center {
+	text-align: center;
+}
+
+.leftToRightHeader {
 	margin-top: 32px;
 }
-.headline-S-Mobile{
+
+.leftToRightHeader h3 {
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 32px;
 	letter-spacing: -0.02em;
-	color:#272D37 ;
 }
-.headline-M-Mobile{
 
-	font-size: 28px;
-	font-weight: 600;
-	line-height: 36px;
-	letter-spacing: -0.02em;
-	text-align: left;
-
-
-}
-.text-l{
+.text-l {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
 	letter-spacing: -0.10000000149011612px;
-	color: #5F6D7E;
+	color: #5f6d7e;
 }
-.text-s{
+
+.text-s {
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 20px;
 	letter-spacing: -0.10000000149011612px;
 	text-align: left;
 }
-.bg-white{
-	background-color: #FAFBFC;
+
+.bg-white {
+	background-color: #fafbfc;
 }
-.bg-blue{
-	background-color: #2B63D9;
+
+.bg-blue {
+	background-color: #2b63d9;
 }
+
 /* Utilities end */
-.leftToRightContentImg{
+
+.leftToRightContentImg {
 	padding-bottom: 32px;
 	padding-top: 32px;
 }
 
-.leftToRightContentBase span{
-	color: #437EF7;
+.leftToRightContentBase span {
+	color: #437ef7;
 	margin-bottom: 8px;
 }
-.leftToRightContentBase h2{
+
+.leftToRightContentBase h2 {
 	margin-bottom: 16px;
 }
 
-.leftToRightContentBase p{
+.leftToRightContentBase p {
 	margin-bottom: 32px;
 }
 
-.leftToRightContentBase a{
-	margin-bottom: 32px;
-	text-decoration: none;
-	display: inline-flex;
-	background-color: #437EF7;
-	padding:12px 18px ;
-	text-align: center;
-	justify-content: center;
-	gap: 10px;
-	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+/* .leftToRightContentBase a {
+    margin-bottom: 32px;
+    text-decoration: none;
+    display: inline-flex;
+    background-color: #437EF7;
+    padding: 12px 18px;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 6px;
-	color:#FFFFFF ;
-}
+    color: #FFFFFF;
+	font-size: 16px;
+} */
+
 .leftToRightBlue span,
 .leftToRightBlue h2 {
-	color: #FFFFFF;
-}
-.leftToRightBlue p{
-	color: #B1CCFB;
+	color: #ffffff;
 }
 
+.leftToRightBlue p {
+	color: #b1ccfb;
+}
+
+.imgMobile {
+	display: flex;
+	margin: auto;
+}
+
+.imgPc {
+	display: none;
+}
+
+.imgTablet {
+	display: none;
+}
 
 @media (min-width: 704px) {
-	/* TABLET ALANI */
+	/* TABLET AREA  */
+
+	/* Header Start */
+
+	/* Header Font */
+
+	.Headline_xL-Mobile-Semibold {
+		font-size: 52px;
+		font-weight: 700;
+		line-height: 60px;
+		letter-spacing: -0.01em;
+	}
+
+	/* Hero-Base Start */
+
+	.Hero-Base {
+		margin-top: 4rem;
+		gap: 4rem;
+	}
+
+	.Paragraph-container {
+		gap: 3rem;
+	}
+
+	.Input-form {
+		flex-direction: row;
+	}
+
+	/* Hero-Base End */
+
+	.Header-img {
+		margin-top: 4rem;
+	}
+
+	/* Header End */
+
+	.imgMobile {
+		display: none;
+	}
+
+	.imgPc {
+		display: none;
+	}
+
+	.imgTablet {
+		display: block;
+		display: flex;
+		margin: auto;
+	}
 }
 
 @media (min-width: 1215px) {
-	/* Desktop ALANI */
-	
+	/* DESKTOP AREA */
+
+	.container {
+		margin: 0 112.03px;
+	}
+
+	.nav-flex {
+		display: flex;
+		align-items: center;
+	}
+
+	/* Header Start */
+
+	/* Nav Start */
+
+	.sidebar {
+		display: none;
+	}
+
+	.Header-links {
+		display: flex;
+		flex-direction: row;
+		gap: 4rem;
+		justify-content: space-between;
+		text-decoration: none;
+		margin: 0 42px 0 64px;
+
+		font-size: 15px;
+		font-weight: 600;
+		line-height: 22px;
+	}
+
+	.Header-links a {
+		color: #272d37;
+	}
+
+	.downlink {
+		display: inline-flex;
+		gap: 1.5rem;
+	}
+
+	.singUp-logIn {
+		display: flex;
+		flex-direction: row;
+		gap: 3rem;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 15px;
+		font-weight: 600;
+		line-height: 22px;
+	}
+
+	.singUp {
+		color: #437ef7;
+	}
+
+	/* Nav End */
+
+	/* Hero-Base Start */
+
+	.Hero-Base {
+		margin-top: 6rem;
+	}
+
+	.Paragraph-container {
+		width: 900px;
+	}
+
+	/* Hero-Base End */
+
+	/* Header End */
+
+	.imgTablet {
+		display: none;
+	}
+
+	.imgMobile {
+		display: none;
+	}
+
+	.imgPc {
+		display: block;
+		display: flex;
+		margin: auto;
+	}
+
+	.section {
+		padding: 64px 0;
+	}
+
+	.leftToRightHeader {
+		margin: 0 auto;
+		width: 800px;
+		padding-bottom: 64px;
+	}
+
+	.leftToRightContent {
+		display: flex;
+		align-items: center;
+		gap: 140px;
+		justify-content: space-between;
+	}
+
+	.leftToRightContentImg {
+		padding: 0;
+		order: 2;
+	}
+
+	.leftToRightContentBase {
+		width: 576px;
+	}
+
+	.leftToRightContentBase h2 {
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 42px;
+		letter-spacing: -0.01em;
+	}
+
+	.leftToRightBlue .leftToRightContentBase {
+		order: 2;
+	}
+
+	leftToRightLastChild {
+		display: none;
+	}
 }
 /*Utility Class*/
 
