@@ -116,6 +116,17 @@ nav {
 	text-align: left;
 }
 
+.text-m{
+
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 36px;
+	letter-spacing: -0.02em;
+	text-align: left;
+
+}
+
+
 .bg-white {
 	background-color: #fafbfc;
 }
@@ -126,9 +137,12 @@ nav {
 
 /* Utilities end */
 
+.leftToRightContent{
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
 .leftToRightContentImg {
 	padding-bottom: 32px;
-	padding-top: 32px;
 }
 
 .leftToRightContentBase span {
@@ -138,6 +152,12 @@ nav {
 
 .leftToRightContentBase h2 {
 	margin-bottom: 16px;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 36px;
+	letter-spacing: -0.02em;
+	text-align: left;
+
 }
 
 .leftToRightContentBase p {
@@ -180,6 +200,199 @@ nav {
 .imgTablet {
 	display: none;
 }
+/* blog start */
+
+.latest{
+    text-align: center;
+	padding: 32px 0;
+}
+.latest h1{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.latest p{
+    text-align: center;
+    font-family: 'Inter';
+}
+
+.card{
+	gap: 20px;
+	border-radius: 10px;
+}
+
+.cards1{
+    display: flex;
+    gap: 16px;
+    padding: 24px 0;
+    align-items: center;
+    justify-content: start;
+	position: relative;
+}
+
+.cards1 img{
+	position: absolute;
+	right:10px;
+	bottom:40px;
+}
+.cards h5{
+    background-color: #F5FAFF;
+    padding: 4px 12px;
+    color:#437EF7;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.cards1 p{
+    color: #5F6D7E;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+}
+.cardsHeader1 h1{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+}
+.cardsHeader p{
+    font-family: 'Inter';
+    font-weight: 400;
+	font-size: 14px;
+    line-height: 24px;
+    color: #5F6D7E;
+    margin-top: 16px;
+}
+.cards1 h5{
+    background-color: #F5FAFF;
+    padding: 4px 12px;
+    color:#437EF7;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.learn{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    padding: 24px 0;
+}
+.learn a{
+    color: #437EF7;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+}
+.cards2{
+    display: flex;
+    gap: 16px;
+    padding: 24px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards2 h5{
+    background-color: #F5FAFF;
+    padding: 4px 12px;
+    color:#437EF7;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.cards2 p{
+    color: #5F6D7E;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+}
+.cardsHeader2 h1{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 28px;
+}
+.cardsHeader2 p{
+    width: 279px;
+    height: 96px;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 24px;
+    color: #5F6D7E;
+}
+.learn2{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    padding: 24px 0;
+}
+.learn2 a{
+    color: #437EF7;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+}
+.cards3{
+    display: flex;
+    gap: 16px;
+    padding: 24px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards3 h5{
+    background-color: #F5FAFF;
+    padding: 4px 12px;
+    color:#437EF7;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.cards3 p{
+    color: #5F6D7E;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+}
+.cardsHeader3 h1{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 28px;
+}
+.cardsHeader3 p{
+    width: 279px;
+    height: 96px;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 24px;
+    color: #5F6D7E;
+}
+.learn3{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    padding: 24px 0;
+}
+.learn3 a{
+    color: #437EF7;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+/* blog end */
 
 @media (min-width: 704px) {
 	/* TABLET AREA  */
