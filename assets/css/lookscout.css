@@ -84,8 +84,12 @@ nav {
     width: 100%;
 }
 
+    /* Header End */
+
 @media (min-width: 704px) {
     /* TABLET AREA  */
+
+    /* Header Start */
 
     /* Header Font */
 
@@ -119,6 +123,8 @@ nav {
         margin-top: 4rem;
     }
 
+    /* Header End */
+
 }
 
 @media (min-width: 1215px) {
@@ -128,8 +134,14 @@ nav {
         margin: 0 112.03px;
     }
 
+    /* Header Start */
 
     /* Nav Start */
+
+    .nav-flex {
+        display: flex;
+        align-items: center;
+    }
 
     .sidebar {
         display: none;
@@ -188,5 +200,5 @@ nav {
 
     /* Hero-Base End */
 
-
+    /* Header Start */
 }
