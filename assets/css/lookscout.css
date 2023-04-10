@@ -570,7 +570,7 @@ nav {
 		order: 2;
 	}
 
-	leftToRightLastChild {
+	.leftToRightLastChild {
 		display: none;
 	}
 }
