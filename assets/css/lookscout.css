@@ -93,11 +93,13 @@ nav {
 	margin-top: 32px;
 }
 
-.leftToRightHeader h3 {
+.leftToRightHeader h3,
+.faqHeader h3 {
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 32px;
 	letter-spacing: -0.02em;
+	color: #272D37;
 }
 
 .text-l {
@@ -444,6 +446,17 @@ nav {
 		display: flex;
 		margin: auto;
 	}
+}
+
+.faq{
+	padding: 40px 16px;
+}
+
+.faqHeader{
+	padding-bottom: 32px;
+}
+.faqHeader h3{
+	padding-bottom: 12px;
 }
 
 @media (min-width: 1215px) {
