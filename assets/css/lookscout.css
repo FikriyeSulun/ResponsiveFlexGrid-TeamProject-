@@ -6,7 +6,6 @@ html {
 
 /* MOBILE AREA */
 .container {
-	max-width: 345px;
 	margin: 0 16.02px;
 }
 
@@ -127,9 +126,12 @@ nav {
 
 /* Utilities end */
 
+.leftToRightContent{
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
 .leftToRightContentImg {
 	padding-bottom: 32px;
-	padding-top: 32px;
 }
 
 .leftToRightContentBase span {
