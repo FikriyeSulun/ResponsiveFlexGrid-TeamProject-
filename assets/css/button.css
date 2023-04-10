@@ -6,10 +6,11 @@
     border-radius: 6px;
     padding: 12px 18px 12px 18px;
     box-shadow: 0px 1px 2px 0px #1018280A;
-    display: inline-block;
+    display: inline-flex;
     border: 1px solid #DAE0E6;
     text-decoration: none;
     color: #272D37;
+    gap:6px;
 }
 
 .button-blue {
