@@ -11,6 +11,8 @@ html {
     margin: 0 16.02px;
 }
 
+/* Header Start */
+
 /* Nav Start */
 
 header {
@@ -24,6 +26,14 @@ nav {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #EAEBF0;
+}
+
+.nav-flex {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .Header-links {
@@ -200,5 +210,5 @@ nav {
 
     /* Hero-Base End */
 
-    /* Header Start */
+    /* Header End */
 }
