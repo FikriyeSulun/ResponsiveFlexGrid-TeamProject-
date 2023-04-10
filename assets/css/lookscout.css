@@ -116,6 +116,17 @@ nav {
 	text-align: left;
 }
 
+.text-m{
+
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 36px;
+	letter-spacing: -0.02em;
+	text-align: left;
+
+}
+
+
 .bg-white {
 	background-color: #fafbfc;
 }
@@ -141,6 +152,12 @@ nav {
 
 .leftToRightContentBase h2 {
 	margin-bottom: 16px;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 36px;
+	letter-spacing: -0.02em;
+	text-align: left;
+
 }
 
 .leftToRightContentBase p {
