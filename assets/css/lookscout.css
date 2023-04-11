@@ -153,11 +153,6 @@ nav {
 
     /* Nav Start */
 
-    .nav-flex {
-        display: flex;
-        align-items: center;
-    }
-
     .sidebar {
         display: none;
     }
