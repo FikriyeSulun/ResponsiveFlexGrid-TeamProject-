@@ -502,6 +502,24 @@ nav {
 .footer-links li {
 	list-style: none;
 }
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-bottom {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	padding-top: 20px;
+}
+
+.footer-bottom img {
+	width: 20px;
+}
 /*Footer End*/
 @media (min-width: 704px) {
 	/* TABLET AREA  */

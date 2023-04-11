@@ -3,271 +3,272 @@
 /* Hero-Base Start */
 
 .Hero-Base-About {
-    margin-top: 4rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 4rem;
+	margin-top: 4rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 4rem;
 }
 
 .Text_S-Semibold {
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-    letter-spacing: -0.10000000149011612px;
-    text-align: left;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: -0.10000000149011612px;
+	text-align: left;
 }
 
 .Blue {
-    color: #437EF7;
+	color: #437ef7;
 }
 
 .Paragraph-container-About {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
-    margin-bottom: 5rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2rem;
+	margin-bottom: 5rem;
 }
 
 /* Hero-Base End */
 
 /* Header End */
 
-
 /* Section01 Start */
 
 .Messaging-for-all {
-    width: 100%;
-    margin: 4rem 0;
-    display: inline-flex;
-    justify-content: space-around;
-    flex-direction: column;
-    gap: 4rem;
+	width: 100%;
+	margin: 4rem 0;
+	display: inline-flex;
+	justify-content: space-around;
+	flex-direction: column;
+	gap: 4rem;
 }
 
 .Headline_S-Mobile-Bold {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
+	letter-spacing: -0.02em;
+	text-align: center;
 }
 
 .Just-desktop {
-    display: none;
+	display: none;
 }
 
 .Messaging-for-all-cards {
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
 }
 
 .Messaging-for-all-card,
 .Messaging-for-all-card_Learn-more {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
 }
 
 .Messaging-for-all-card img,
 .Messaging-for-all-card_Learn-more img {
-    height: 48px;
-    width: 48px;
+	height: 48px;
+	width: 48px;
 }
 
-.Messaging-for-all-card-text{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.Messaging-for-all-card-text {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
 }
 
 .Headline_XS-Mobile-Semibold {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 28px;
-    letter-spacing: -0.02em;
-    text-align: left;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 28px;
+	letter-spacing: -0.02em;
+	text-align: left;
 }
 
 .Text_L-Regular {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.10000000149011612px;
-    text-align: left;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: -0.10000000149011612px;
+	text-align: left;
 }
 
 .Gray {
-    color: #5F6D7E;
+	color: #5f6d7e;
 }
 
 .Button_Semibold-Large {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
 
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0px;
-    text-align: left;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: left;
 }
 
 .Button_Semibold-Large img {
-    height: 20px;
-    width: 20px;
+	height: 20px;
+	width: 20px;
 }
 
 /* Section01 End */
 
+/*CheckUs*/
+.checkUsTextSmall {
+	display: flex;
+	align-items: center;
+	padding: 5px 0;
+	gap: 10px;
+}
+
+.checkUsTextSmall img {
+	width: 15px;
+}
+/*CheckUs End*/
+
 @media (min-width: 704px) {
-    /* TABLET AREA  */
+	/* TABLET AREA  */
 
-    /* Header Start */
+	/* Header Start */
 
-    /* Hero-Base Start */
+	/* Hero-Base Start */
 
-    .Hero-Base-About {
-        margin-top: 6rem;
-        gap: 0rem;
-    }
+	.Hero-Base-About {
+		margin-top: 6rem;
+		gap: 0rem;
+	}
 
-    .Text_S-Semibold {
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 20px;
-        letter-spacing: -0.10000000149011612px;
-        text-align: left;
-    }
+	.Text_S-Semibold {
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 20px;
+		letter-spacing: -0.10000000149011612px;
+		text-align: left;
+	}
 
-    .Paragraph-container-About {
-        width: 672px;
-        gap: 3rem;
-        margin-bottom: 11rem;
-    }
+	.Paragraph-container-About {
+		width: 672px;
+		gap: 3rem;
+		margin-bottom: 11rem;
+	}
 
-    /* Hero-Base End */
+	/* Hero-Base End */
 
-    /* Header End */
+	/* Header End */
 
+	/* Section01 Start */
 
-    /* Section01 Start */
+	.Messaging-for-all {
+		margin: 5rem 0;
+		align-items: center;
+	}
 
-    .Messaging-for-all {
-        margin: 5rem 0;
-        align-items: center;
-    }
+	.Headline_S-Mobile-Bold {
+		display: none;
+	}
 
-    .Headline_S-Mobile-Bold {
-        display: none;
-    }
+	.Headline_M-Desktop-Bold {
+		display: block;
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 40px;
+		letter-spacing: -0.02em;
+		text-align: center;
+	}
 
-    .Headline_M-Desktop-Bold {
-        display: block;
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 40px;
-        letter-spacing: -0.02em;
-        text-align: center;
-    }
+	.Messaging-for-all-cards {
+		height: 756px;
+		width: 704px;
+		gap: 6rem;
+		flex-wrap: wrap;
+		margin-bottom: 5rem;
+	}
 
-    .Messaging-for-all-cards {
-        height: 756px;
-        width: 704px;
-        gap: 6rem;
-        flex-wrap: wrap;
-        margin-bottom: 5rem;
-    }
+	.Messaging-for-all-card,
+	.Messaging-for-all-card_Learn-more {
+		height: 182px;
+		width: 336px;
+		gap: 20px;
+	}
 
-    .Messaging-for-all-card,
-    .Messaging-for-all-card_Learn-more {
-        height: 182px;
-        width: 336px;
-        gap: 20px;
-    }
+	.Messaging-for-all-card-text {
+		gap: 2rem;
+	}
 
-    .Messaging-for-all-card-text{
-        gap: 2rem;
-    }
-
-    /* Section01 End */
-
+	/* Section01 End */
 }
 
 @media (min-width: 1215px) {
-    /* DESKTOP AREA */
+	/* DESKTOP AREA */
 
-    .container {
-        margin: 0 112.03px;
-    }
+	.container {
+		margin: 0 112.03px;
+	}
 
-    /* Header Start */
+	/* Header Start */
 
-    /* Hero-Base Start */
+	/* Hero-Base Start */
 
-    .Hero-Base-About {
-        margin-top: 10rem;
-        gap: 2rem;
-    }
+	.Hero-Base-About {
+		margin-top: 10rem;
+		gap: 2rem;
+	}
 
-    .Paragraph-container-About {
-        width: 640px;
-        margin-bottom: 94px;
-    }
+	.Paragraph-container-About {
+		width: 640px;
+		margin-bottom: 94px;
+	}
 
-    /* Hero-Base End */
+	/* Hero-Base End */
 
-    /* Header End */
+	/* Header End */
 
+	/* Section01 Start */
 
-    /* Section01 Start */
+	.Messaging-for-all {
+		margin: 5rem 0;
+		align-items: center;
+		gap: 8rem;
+	}
 
-    .Messaging-for-all {
-        margin: 5rem 0;
-        align-items: center;
-        gap: 8rem;
-    }
+	.Messaging-for-all-header {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
 
-    .Messaging-for-all-header {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
+	.Just-desktop {
+		display: block;
+	}
 
-    .Just-desktop {
-        display: block;
-    }
-    
-    .Messaging-for-all-cards {
-        height: 182px;
-        width: 1280px;
-        display: flex;
-        flex-direction: column;
-        gap: 4rem;
-        flex-wrap: wrap;
-        margin-bottom: 8rem;
-    }
+	.Messaging-for-all-cards {
+		height: 182px;
+		width: 1280px;
+		display: flex;
+		flex-direction: column;
+		gap: 4rem;
+		flex-wrap: wrap;
+		margin-bottom: 8rem;
+	}
 
-    .Messaging-for-all-card{
-        height: 182px;
-        width: 384px;
-        gap: 20px;
+	.Messaging-for-all-card {
+		height: 182px;
+		width: 384px;
+		gap: 20px;
+	}
 
-    }
+	.Messaging-for-all-card_Learn-more {
+		display: none;
+	}
 
-
-
-
-
-
-
-    .Messaging-for-all-card_Learn-more {
-        display: none;
-    }
-
-    /* Section01 End */
-
+	/* Section01 End */
 }
