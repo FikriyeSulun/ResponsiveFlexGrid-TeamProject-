@@ -36,6 +36,11 @@ nav {
     justify-content: space-between;
 }
 
+#Logo {
+    height: 40px;
+    min-width: 160px;
+}
+
 .Header-links {
     display: none;
 }
@@ -94,7 +99,7 @@ nav {
     width: 100%;
 }
 
-    /* Header End */
+/* Header End */
 
 @media (min-width: 704px) {
     /* TABLET AREA  */
@@ -163,7 +168,6 @@ nav {
         gap: 4rem;
         justify-content: space-between;
         text-decoration: none;
-        margin: 0 420px 0 64px;
         font-size: 15px;
         font-weight: 600;
         line-height: 22px;
