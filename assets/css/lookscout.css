@@ -413,6 +413,96 @@ nav {
 
 /* blog end */
 
+/*Customer*/
+.profile-photos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.profile-photos img {
+	margin-left: -12px;
+	width: 48px;
+}
+
+.stars-section {
+	margin-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.stars {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+/*Customer End*/
+
+/*Submit*/
+.bg-gray {
+	background-color: #f8f9fb;
+	border-radius: 10px;
+	padding: 16px;
+}
+
+#email {
+	padding: 12px 16px;
+	border: 1px solid #dae0e6;
+	color: #dae0e6;
+	width: 100%;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*Submit End*/
+
+/*Footer*/
+.footer-head {
+	padding-inline: 20px;
+}
+
+.social-area {
+	padding: 40px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 60px;
+}
+
+.footer-links {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 30px;
+	justify-items: stretch;
+	align-items: start;
+	justify-content: center;
+}
+
+.footer-links a {
+	color: black;
+	text-decoration: none;
+	font-weight: 500;
+	color: #5f6d7e;
+}
+
+.footer-links [data-header='footer-header'] {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	text-decoration: none;
+	color: black;
+}
+
+.footer-links li {
+	list-style: none;
+}
+/*Footer End*/
 @media (min-width: 704px) {
 	/* TABLET AREA  */
 
@@ -676,6 +766,32 @@ nav {
 		gap: 24px;
 	}
 	/*Review End*/
+
+	.leftToRightContentImg > img {
+		width: -webkit-fill-available;
+		padding-inline: 20px;
+	}
+
+	.card-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+	}
+
+	.card {
+		max-width: 350px;
+	}
+
+	.customers {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	.stars-section {
+		padding: 30px;
+		border: none;
+		margin: 0;
+	}
 }
 
 @media (min-width: 1215px) {
@@ -688,4 +804,11 @@ nav {
 		gap: 32px;
 	}
 	/*Review End*/
+
+	.card-container {
+		display: flex;
+		align-items: center;
+		gap: 40px;
+		justify-content: center;
+	}
 }
