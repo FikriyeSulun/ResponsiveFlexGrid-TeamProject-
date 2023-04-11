@@ -713,7 +713,7 @@ nav {
 		display: flex;
 		align-items: center;
 		gap: 140px;
-		justify-content: space-between;
+		justify-content: center;
 		padding: 32px 16px;
 	}
 
