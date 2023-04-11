@@ -575,16 +575,7 @@ nav {
 	}
 }
 
-.faq{
-	padding: 40px 16px;
-}
 
-.faqHeader{
-	padding-bottom: 32px;
-}
-.faqHeader h3{
-	padding-bottom: 12px;
-}
 
 @media (min-width: 1215px) {
 	/* DESKTOP AREA */

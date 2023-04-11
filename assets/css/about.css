@@ -133,6 +133,19 @@
 .checkUsTextSmall img {
 	width: 15px;
 }
+
+.faq{
+	padding: 40px 16px;
+}
+
+.faqHeader{
+	padding-bottom: 32px;
+}
+.faqHeader h3{
+	padding-bottom: 12px;
+}
+
+
 /*CheckUs End*/
 
 @media (min-width: 704px) {
