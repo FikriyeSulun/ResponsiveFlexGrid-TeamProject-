@@ -29,9 +29,9 @@ nav {
 }
 
 .nav-flex {
-    width: 100%;
     display: flex;
     flex-direction: row;
+    gap: 8rem;
     align-items: center;
     justify-content: space-between;
 }
@@ -164,7 +164,6 @@ nav {
         justify-content: space-between;
         text-decoration: none;
         margin: 0 420px 0 64px;
-
         font-size: 15px;
         font-weight: 600;
         line-height: 22px;
