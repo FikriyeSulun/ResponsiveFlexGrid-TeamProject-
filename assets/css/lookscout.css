@@ -197,6 +197,12 @@ nav {
 	display: none;
 }
 
+
+.checkUsOut{
+	display: none;
+}
+
+
 /* blog start */
 
 .latest {
@@ -571,6 +577,9 @@ nav {
 		display: block;
 		margin: auto;
 	}
+	.checkUsOut{
+		display: none;
+	}
 
 	.review-cards {
 		display: grid;
@@ -582,7 +591,6 @@ nav {
 
 	.leftToRightContentImg > img {
 		width: -webkit-fill-available;
-		padding-inline: 20px;
 	}
 
 	.card-container {
@@ -701,9 +709,9 @@ nav {
 		margin: auto;
 	}
 
-	.section {
+	/* .section {
 		padding: 64px 0;
-	}
+	} */
 
 	.leftToRightHeader {
 		margin: 0 auto;
@@ -714,9 +722,8 @@ nav {
 	.leftToRightContent {
 		display: flex;
 		align-items: center;
-		gap: 140px;
+		gap: 80px;
 		justify-content: center;
-		padding: 32px 16px;
 	}
 
 	.leftToRightContentImg {
@@ -742,6 +749,20 @@ nav {
 	.leftToRightLastChild {
 		display: none;
 	}
+
+	.checkUsOut{
+		display: block;
+	}
+	ul {
+		list-style-image: url('/assets/img/svg/check-ico.svg');
+		padding-bottom: 40px;
+		padding-left: 21px;
+	  }
+	li{
+		list-style-type:none;
+		padding-bottom: 10px;
+	}
+	
 }
 /*Utility Class*/
 
