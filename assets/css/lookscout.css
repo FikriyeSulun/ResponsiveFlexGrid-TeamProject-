@@ -148,8 +148,7 @@ nav {
 /* Utilities end */
 
 .leftToRightContent {
-	padding-top: 32px;
-	padding-bottom: 32px;
+	padding: 32px 16px;
 }
 
 .leftToRightContentImg {
@@ -568,13 +567,61 @@ nav {
 
 	.imgTablet {
 		display: block;
-		display: flex;
 		margin: auto;
+	}
+
+	.review-cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		padding: 32px 40px;
+		gap: 24px;
+	}
+	/*Review End*/
+
+	.leftToRightContentImg > img {
+		width: -webkit-fill-available;
+		padding-inline: 20px;
+	}
+
+	.card-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+	}
+
+	.card {
+		max-width: 350px;
+	}
+
+	.customers {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	.stars-section {
+		padding: 30px;
+		border: none;
+		margin: 0;
 	}
 }
 
 @media (min-width: 1215px) {
 	/* DESKTOP AREA */
+
+	.review-cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		padding: 70px 80px;
+		gap: 32px;
+	}
+	/*Review End*/
+
+	.card-container {
+		display: flex;
+		align-items: center;
+		gap: 40px;
+		justify-content: center;
+	}
 
 	.container {
 		margin: 0 112.03px;
@@ -649,7 +696,6 @@ nav {
 
 	.imgPc {
 		display: block;
-		display: flex;
 		margin: auto;
 	}
 
@@ -668,6 +714,7 @@ nav {
 		align-items: center;
 		gap: 140px;
 		justify-content: space-between;
+		padding: 32px 16px;
 	}
 
 	.leftToRightContentImg {
@@ -696,28 +743,11 @@ nav {
 }
 /*Utility Class*/
 
-.container {
+.a_container {
 	padding: 32px 16px;
 	box-sizing: border-box;
 	max-width: 1215px;
 	margin: 0 auto;
-}
-
-.button {
-	padding: 12px 18px;
-	border: 1px solid #dae0e6;
-	font-size: 15px;
-	line-height: 22px;
-	text-decoration: none;
-	color: black;
-	border-radius: 6px;
-	text-align: center;
-}
-
-.button.button-blue {
-	border: none;
-	background-color: rgba(67, 126, 247, 1);
-	color: #fff;
 }
 
 /*Review*/
@@ -772,61 +802,3 @@ nav {
 }
 
 /*Review End*/
-
-@media (min-width: 704px) {
-	/* TABLET ALANI */
-
-	/*Review*/
-	.review-cards {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		padding: 32px 40px;
-		gap: 24px;
-	}
-	/*Review End*/
-
-	.leftToRightContentImg > img {
-		width: -webkit-fill-available;
-		padding-inline: 20px;
-	}
-
-	.card-container {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		justify-items: center;
-	}
-
-	.card {
-		max-width: 350px;
-	}
-
-	.customers {
-		display: flex;
-		align-items: center;
-		justify-content: space-evenly;
-	}
-	.stars-section {
-		padding: 30px;
-		border: none;
-		margin: 0;
-	}
-}
-
-@media (min-width: 1215px) {
-	/* Desktop ALANI */
-	/*Review */
-	.review-cards {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		padding: 70px 80px;
-		gap: 32px;
-	}
-	/*Review End*/
-
-	.card-container {
-		display: flex;
-		align-items: center;
-		gap: 40px;
-		justify-content: center;
-	}
-}
