@@ -15,7 +15,7 @@
 	font-weight: 600;
 	line-height: 20px;
 	letter-spacing: -0.10000000149011612px;
-	text-align: left;
+	color: #fff;
 }
 
 .Blue {
@@ -40,9 +40,6 @@
 .Messaging-for-all {
 	width: 100%;
 	margin: 4rem 0;
-	display: inline-flex;
-	justify-content: space-around;
-	flex-direction: column;
 	gap: 4rem;
 }
 
@@ -51,7 +48,6 @@
 	font-weight: 700;
 	line-height: 32px;
 	letter-spacing: -0.02em;
-	text-align: center;
 }
 
 .Just-desktop {
@@ -60,8 +56,10 @@
 
 .Messaging-for-all-cards {
 	display: flex;
-	flex-direction: column;
-	gap: 5rem;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .Messaging-for-all-card,
@@ -79,7 +77,9 @@
 
 .Messaging-for-all-card-text {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
 	gap: 1rem;
 }
 
@@ -96,7 +96,6 @@
 	font-weight: 400;
 	line-height: 24px;
 	letter-spacing: -0.10000000149011612px;
-	text-align: left;
 }
 
 .Gray {
@@ -123,6 +122,18 @@
 /* Section01 End */
 
 /*CheckUs*/
+
+.checkUs {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.checkUs > img {
+	max-width: -webkit-fill-available;
+}
+
 .checkUsTextSmall {
 	display: flex;
 	align-items: center;
@@ -133,7 +144,112 @@
 .checkUsTextSmall img {
 	width: 15px;
 }
+
+.faq {
+	padding: 40px 16px;
+}
+
+.faqHeader {
+	padding-bottom: 32px;
+}
+.faqHeader h3 {
+	padding-bottom: 12px;
+}
 /*CheckUs End*/
+
+/*Team Cards*/
+
+.team-card {
+	margin-block: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.team-card-header {
+	padding-inline: 10px;
+}
+
+.team-card-header > img {
+	max-width: 100%;
+	zoom: 110%;
+	margin: 10px auto;
+}
+
+.team-card-header h5 {
+	padding-block: 5px;
+}
+
+.team-card .team-card-social {
+	display: flex;
+	gap: 16px;
+	padding-inline: 10px;
+}
+/*Team Cards End*/
+
+/*FAQ*/
+
+.faq {
+	display: grid;
+}
+
+.faq h3 {
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 500;
+}
+
+.faq p {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+.faq-cell {
+	border: 1px solid rgba(234, 235, 240, 1);
+
+	padding: 20px;
+}
+
+.faq-cell.faq-cell-new {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/*FAQ End*/
+
+/*Blue Bottom*/
+
+.a_container a[data-btn-white='logos-btn-white'] {
+	background-color: #fff;
+	color: rgba(67, 126, 247, 1);
+	font-size: 15px;
+	font-weight: 600;
+	display: block;
+}
+
+.a_container a[data-btn-blue='logos-btn-blue'] {
+	background-color: rgba(67, 126, 247, 1);
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	display: block;
+}
+
+.logos {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	align-items: center;
+	padding: 10px 0 40px;
+	margin-bottom: 40px;
+}
+
+.logos img {
+	width: 100px;
+}
+
+/*Blue Bottom End*/
 
 @media (min-width: 704px) {
 	/* TABLET AREA  */
@@ -186,10 +302,7 @@
 	}
 
 	.Messaging-for-all-cards {
-		height: 756px;
-		width: 704px;
 		gap: 6rem;
-		flex-wrap: wrap;
 		margin-bottom: 5rem;
 	}
 
@@ -205,6 +318,76 @@
 	}
 
 	/* Section01 End */
+
+	.team-cards {
+		display: flex;
+		gap: 30px;
+		justify-content: left;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	.team-card {
+		margin-block: 50px;
+		border-radius: 10px;
+		max-width: 45%;
+		overflow: hidden;
+	}
+
+	.team-card-header {
+		padding-inline: 10px;
+	}
+
+	.team-card-header > img {
+		max-width: 100%;
+		zoom: 110%;
+		margin: 10px auto;
+	}
+
+	.team-card-header h5 {
+		padding-block: 5px;
+	}
+
+	.team-card .team-card-social {
+		display: flex;
+		gap: 16px;
+		padding-inline: 10px;
+	}
+
+	.a_container a[data-btn-white='logos-btn-white'] {
+		background-color: rgba(67, 126, 247, 1);
+		color: #fff;
+		font-size: 15px;
+		font-weight: 600;
+		display: inline-block;
+		margin-right: 20px;
+		padding: 10px 40px;
+	}
+
+	.a_container a[data-btn-blue='logos-btn-blue'] {
+		background-color: #fff;
+		color: rgba(67, 126, 247, 1);
+		font-size: 15px;
+		font-weight: 600;
+		display: inline-block;
+		margin-left: 20px;
+		padding: 10px 40px;
+	}
+
+	.logos {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 80px;
+		align-items: center;
+		justify-content: center;
+		padding: 10px 0 40px;
+		margin-bottom: 40px;
+	}
+
+	.logos img {
+		width: 100px;
+	}
 }
 
 @media (min-width: 1215px) {
@@ -241,9 +424,8 @@
 	}
 
 	.Messaging-for-all-header {
-		display: flex;
-		flex-direction: column;
-		gap: 2rem;
+		display: block;
+		text-align: center;
 	}
 
 	.Just-desktop {
@@ -251,23 +433,21 @@
 	}
 
 	.Messaging-for-all-cards {
-		height: 182px;
-		width: 1280px;
-		display: flex;
-		flex-direction: column;
 		gap: 4rem;
-		flex-wrap: wrap;
 		margin-bottom: 8rem;
+		justify-content: flex-end;
 	}
 
 	.Messaging-for-all-card {
-		height: 182px;
-		width: 384px;
 		gap: 20px;
 	}
 
 	.Messaging-for-all-card_Learn-more {
 		display: none;
+	}
+
+	.team-cards {
+		justify-content: center;
 	}
 
 	/* Section01 End */
