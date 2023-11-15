@@ -1,11 +1,13 @@
-# Ekip2
-## Team
-Ceren Koçsal
+# Takım Projesi - Responsive, Flex, Grid Çalışması
 
-Emre Bayburt
+Bu proje, 4 kişilik bir takım halinde Flex ve Grid öğrenimi üzerine responsive olacak şekilde yapıldı. Takım arkadaşlarımızla, proje boyunca farklı bölümlerde çalışarak birlikte git kullanmayı branch açma ve commit işlemlerini etkili bir şekilde öğrenmeyi, merge işlemini gözlemlemeyi amaçladık.
 
-Fikriye Sülün
+## Proje Açıklaması
 
-Ömer Faruk Köse
+Bu projede, temel bir web sitesi oluşturmayı hedefledik. Her takım üyesi, kendisine verilen görevler üzerinde kendi branchlerinde çalışmış ve kodları GitHub üzerinden yönetmiştir.
 
-Ali Duru
+## Proje Hedefleri
+
+- Git kullanmayı etkili bir şekilde öğrenmek.
+- Takım halinde çalışmak.
+- Flex ve Grid kullanımını pekiştirmek.
